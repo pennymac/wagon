@@ -7,6 +7,8 @@ module Locomotive
 
         include ::HTTParty
 
+        ssl_version :TLSv1
+
         def self.consume(url, options = {})
           url = ::HTTParty.normalize_base_uri(url)
 

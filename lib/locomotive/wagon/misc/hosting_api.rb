@@ -5,6 +5,8 @@ module Locomotive
 
     include HTTParty
 
+    ssl_version :TLSv1
+
     base_uri ENV['HOSTING_URL'] || 'http://www.locomotivehosting.com'
     # base_uri ENV['HOSTING_URL'] || 'http://www.locomotivehosting.fr'
     # base_uri ENV['HOSTING_URL'] || 'http://www.locomotivehosting.dev:3000'
