@@ -10,7 +10,7 @@ gemspec
 # gem 'locomotivecms_mounter', github: 'locomotivecms/mounter', ref: '6025c4a', require: false
 
 gem 'rb-fsevent', '~> 0.9.1'
-gem 'locomotivecms_mounter', github: 'pennymac/mounter', branch: 'master'
+gem 'locomotivecms_mounter', github: 'pennymac/mounter', branch: 'master', require: false
 
 group :test do
   gem 'pry'
